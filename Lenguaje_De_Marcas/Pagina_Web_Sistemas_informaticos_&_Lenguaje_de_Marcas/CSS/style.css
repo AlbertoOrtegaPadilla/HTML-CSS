@@ -1,0 +1,132 @@
+body{
+
+  background-image: url("../IMG/wall4.jpg");
+}
+
+img{
+
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+div.todo{
+
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+      max-width: 1180px;
+}
+
+nav ul {
+
+    padding: .4em;
+    float: left;
+    list-style: none;
+    background: #444;
+    border-radius: .5em;
+}
+
+nav li {
+
+    float:left;
+}
+
+nav a {
+
+    float:left;
+    padding: .8em 1.5em;
+    text-decoration: none;
+    color: #555;
+    font: 15.174px 'trebuchet MS', Arial, Helvetica;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff #ccc #999 #eee;
+    background: linear-gradient(#f5f5f5, #c1c1c1);
+ }
+
+nav a:hover, nav a:focus {
+
+    outline: 0;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.2);
+    background: #fac754;
+    background: linear-gradient(#fac754, #f8ac00);
+}
+
+nav a:active {
+
+    box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
+}
+
+h1,h2{
+
+    text-align: center;
+}
+
+div#exterior{
+
+    float: none;
+    background: #444;
+    padding: .4em;
+    border-radius: .5em;
+}
+
+div#interior{
+
+    font: 15px 'trebuchet MS', Arial, Helvetica;
+    font-weight: normal;
+    color: #555;
+    text-align: justify;
+    padding: .8em 2.5em;
+    border-color: #fff #ccc #999 #eee;
+    background: linear-gradient(#f5f5f5, #c1c1c1);
+}
+
+ul.versiones {
+
+    list-style: none;
+}
+
+div#interior2{
+
+    font: 15px 'trebuchet MS', Arial, Helvetica;
+    font-weight: normal;
+    color: #555;
+    text-align: center;
+    padding: .8em 2.5em;
+    border-color: #fff #ccc #999 #eee;
+    background: linear-gradient(#f5f5f5, #c1c1c1);
+}
+
+div#interior3{
+
+    font: 15px 'trebuchet MS', Arial, Helvetica;
+    color: #555;
+    text-align: left;
+    padding: .8em 2.5em;
+    border-color: #fff #ccc #999 #eee;
+    background: linear-gradient(#f5f5f5, #c1c1c1);
+}
+
+div#interior3 h1{
+
+    text-align: left;
+}
+
+div#interior3 a.img{
+
+
+    float: right;
+}
+
+table{
+
+    margin-left: auto;
+    margin-right: auto;
+}

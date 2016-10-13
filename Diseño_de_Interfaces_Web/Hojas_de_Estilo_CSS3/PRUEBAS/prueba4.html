@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .contenedor{
+        width: 264px;
+        height: 166px;
+        background-color: #81BEF7;
+        text-align: center;
+        position: absolute;
+        left: 37%;
+        top: 37%;
+        padding-top: 1px;
+      }
+      #text{
+        color: white;
+        /*Primer px es valor X, 2 px es el valor Y, 3 px es el difuminado, 4 rgb es el color, y el rgb"a" la a es la
+        opacidad del color*/
+        text-shadow: 1px 1px 0px rgb(230,230,230),
+                      2px 2px 0px rgb(200,200,200),
+                      3px 3px 0px rgb(180,180,180),
+                      4px 4px 0px rgb(160,160,160),
+                      /*ultimas capas en negro con opacidadal final*/ 5px 5px 0px rgb(0,0,0),
+                                                                      8px 8px 2px rgba(0,0,0,0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor">
+      <h1 id="text">CCS3 AHORA CON EFECTOS 3D</h1>
+    </div>
+  </body>
+</html>

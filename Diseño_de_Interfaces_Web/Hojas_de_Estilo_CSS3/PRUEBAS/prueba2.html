@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+
+      #localidad1, #localidad2, #localidad3, #localidad4 {
+        /*inline-block se pega con el inline al texto, pero el block lo trata como un bloque(ejemplo div)*/
+        display: inline-block;
+        height: 39px;
+        /*El block lo trata como un bloque(ejemplo div), entonces con el width es suficiente, no hace falta el padding*/
+        width: 48px;
+        /*Grosor de la linea de texto*/
+        line-height: 45px;
+        background-image: url("IMG/sprite.png");
+        /*Si la imagen es mas pequeña que el contenedor, se repetira hasta ocuparla en todas sus medidas, con el no-repeat no*/
+        background-repeat: no-repeat;
+        /*Centra los iconos con el texto.*/
+        vertical-align: middle;
+      }
+      #localidad1 {
+        background-position: -1px -16px;
+      }
+      #localidad2 {
+        background-position: -50px -14px;
+      }
+      #localidad3 {
+        background-position: -98px -11px;
+      }
+      #localidad4 {
+        background-position: -193px -12px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Previsiones meteorológicas</h3>
+    <li><span id="localidad1"></span>Localidad 1: soleado, máx: 35º, mín: 23º</li>
+    <li><span id="localidad2"></span>Localidad 2: nublado, máx: 25º, mín: 13º</li>
+    <li><span id="localidad3"></span>Localidad 3: muy nublado, máx: 22º, mín: 10º</li>
+    <li><span id="localidad4"></span>Localidad 4: tormentas, máx: 23º, mín: 11º</li>
+    </div>
+  </body>
+</html>

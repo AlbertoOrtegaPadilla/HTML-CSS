@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      div{
+        border: 1px solid #000;
+        padding: 10px;
+        margin: 20px;
+        height: 150px;
+        width: 275px;
+        float: left;
+      }
+      #gradiente1{
+        background: -webkit-linear-gradient(top left, #fff, #f66);
+      }
+      #gradiente2{
+        background: -webkit-linear-gradient(180deg, #fff, #f66);
+      }
+      #gradiente3{
+        background: -webkit-linear-gradient(#00f 50%, #000);
+      }
+      #gradiente4{
+        background: -webkit-linear-gradient(-45deg, #66f, #f80, #ffc);
+      }
+      #gradiente5{
+        background: -webkit-linear-gradient(45deg, #66f 10%, #f80 30%, #ffc 60%);
+      }
+      #gradiente6{
+        background: -webkit-linear-gradient(left, #f00, #f80, #ff0, #0f0, #00f, #60f,#c0f);
+      }
+      #gradiente7{
+        background: -webkit-repeating-linear-gradient(#fff, #666 25%);
+      }
+      #gradiente8{
+        background: -webkit-repeating-linear-gradient(left, #ffc, #f96 30%, #963 40%, #630 51%);
+      }
+      #gradiente9{
+        background: -webkit-repeating-linear-gradient(45deg, red, blue, red 50px);
+      }
+      #gradiente10{
+        background: -webkit-repeating-linear-gradient(left, #f00, #f80, #ff0, #0f0, #00f, #60f, #c0f, #f00 100px);
+      }
+      #gradiente11{
+        background: -webkit-radial-gradient(#0f0, #06f);
+      }
+      #gradiente12{
+        background: -webkit-radial-gradient(top left, #fff, #f10);
+      }
+      #gradiente13{
+        background: -webkit-radial-gradient(200px 30px, #f0f, #000);
+      }
+      #gradiente14{
+        background: -webkit-radial-gradient(center, #00f, #000 50%);
+      }
+      #gradiente15{
+        background: -webkit-radial-gradient(circle, #66f, #f80, #ffc);
+      }
+      #gradiente16{
+        background: -webkit-radial-gradient(ellipse cover, #66f, #f80, #ffc);
+      }
+      #gradiente17{
+        background: -webkit-radial-gradient(10%, ellipse farthest-corner, #66f 60%, #f80 85%, #ffa);
+      }
+      #gradiente18{
+        background: -webkit-radial-gradient(10%, ellipse closest-side, #66f 60%, #f80 85%, #ffa);
+      }
+      #gradiente19{
+        /*NO me lo muestra en firefox de version 50 pero si en chrome*/
+        background: -webkit-radial-gradient(10px 100px, 30% 80%, #fff, #666, #66f);
+        background: -moz-radial-gradient(10px 100px, 30% 80%, #fff, #666, #66f);
+      }
+      #gradiente20{
+        /*NO me lo muestra en firefox de version 50 pero si en chrome*/
+        background: -webkit-radial-gradient(top left, 150px 100px, #ffc, #f96, #963, #630);
+        background: -moz-radial-gradient(top left, 150px 100px, #ffc, #f96, #963, #630);
+      }
+      #gradiente21{
+        /*NO me lo muestra en firefox de version 50 pero si en chrome*/
+        background: -webkit-radial-gradient(20% 80%, 100% 50%, red, blue 50px, red);
+        background: -moz-radial-gradient(20% 80%, 100% 50%, red, blue 50px, red);
+      }
+      #gradiente22{
+        background: -webkit-radial-gradient(left, 200px 200px, #f00 20%, #f80, #ff0, #0f0, #00f, #60f, #c0f);
+        background: -moz-radial-gradient(left, 200px 200px, #f00 20%, #f80, #ff0, #0f0, #00f, #60f, #c0f);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Degradado lineal:</h1>
+    <div id="gradiente1"></div>
+    <div id="gradiente2"></div>
+    <div id="gradiente3"></div>
+    <div id="gradiente4"></div>
+    <div id="gradiente5"></div>
+    <div id="gradiente6"></div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1>Degradados lineales con múltiples repeticiones:</h1>
+    <div id="gradiente7"></div>
+    <div id="gradiente8"></div>
+    <div id="gradiente9"></div>
+    <div id="gradiente10"></div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1>Degradados en un gradiente de color de forma radial, círculos y elipses: </h1>
+    <div id="gradiente11"></div>
+    <div id="gradiente12"></div>
+    <div id="gradiente13"></div>
+    <div id="gradiente14"></div>
+    <div id="gradiente15"></div>
+    <div id="gradiente16"></div>
+    <div id="gradiente17"></div>
+    <div id="gradiente18"></div>
+    <div id="gradiente19"></div>
+    <div id="gradiente20"></div>
+    <div id="gradiente21"></div>
+    <div id="gradiente22"></div>
+  </body>
+</html>

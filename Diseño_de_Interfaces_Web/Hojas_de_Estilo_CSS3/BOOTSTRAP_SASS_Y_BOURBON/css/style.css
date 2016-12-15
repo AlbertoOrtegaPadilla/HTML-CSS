@@ -1,0 +1,80 @@
+body {
+  background-color: #d9d9d9; }
+
+.white {
+  background-color: white; }
+
+.espacio {
+  width: 120px;
+  margin-left: 28%; }
+
+#espacio {
+  margin-left: 35%; }
+
+h1 {
+  margin-top: 70px;
+  text-align: center;
+  font: 38px 'Merriweather', serif;
+  color: #333;
+  text-shadow: -1px -1px 0px #101010, 1px 1px 0px #505050; }
+
+h2 {
+  text-align: center;
+  margin-top: 150px; }
+
+h3 {
+  text-align: center; }
+
+.boton {
+  position: absolute;
+  left: 45%;
+  top: 35%; }
+
+hr {
+  border-width: 10px;
+  width: 50%;
+  border-radius: 50%;
+  border-color: #8c8c8c; }
+
+#btn {
+  margin-left: 60px;
+  border: 1px solid #6e6f75; }
+
+.btn-warning {
+  float: right; }
+
+label {
+  position: relative;
+  left: 11px; }
+
+#usuario {
+  position: relative;
+  left: 38%; }
+
+.acceso4 {
+  background-color: #f2f2f2;
+  box-shadow: 0 0 10px #6f8081;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  left: 24%; }
+
+.acceso5 {
+  background-color: #f2f2f2;
+  box-shadow: 0 0 10px #6f8081;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  left: 52%; }
+
+#inputUsuario {
+  width: 265px;
+  position: absolute;
+  left: 60px; }
+
+#inputPassword {
+  width: 265px;
+  position: absolute;
+  left: 60px; }
+
+/*# sourceMappingURL=style.css.map */

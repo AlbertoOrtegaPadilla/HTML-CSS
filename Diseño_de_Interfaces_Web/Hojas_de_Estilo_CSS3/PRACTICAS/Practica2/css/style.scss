@@ -1,0 +1,327 @@
+body{
+  margin: 0px;
+  color: #ffffff;
+  font: 18px/26px 'Alegreya SC', serif;
+}
+  #cabeza{
+    background-image: url(http://livedemo00.template-help.com/wordpress_55229/wp-content/uploads/2015/07/header_bg1.jpg);
+    width: 100%;
+    height: 1161px;
+    background-position: top;
+    z-index: -1;
+  }
+
+  #contenedor{
+    background-color: #57c7ff;
+    opacity: 0.7;
+    position: absolute;
+    top: 9%;
+    left: 6.6%;
+    width: auto;
+    max-width: 1200px;
+  }
+  .logo{
+    margin-top: 3%;
+    opacity: 1;
+    margin-left: 4%;
+    margin-bottom: 3%;
+  }
+  #lista{
+    list-style-type: none;
+    padding-bottom: 0;
+    margin-right: 57px;
+    margin-left: 23.2%;
+    margin-top: -6.3%;
+    margin-bottom: 5.5%;
+    text-align: right;
+    float: right;
+  }
+  li{
+    display: inline;
+    text-align: center;
+    margin: 0px 30px 0px 10px;
+    font: 22px/23px 'Alegreya', serif;
+    opacity: 1;
+  }
+  #contenedor1{
+    position:absolute;
+    top: 74%;
+    left: 8%;
+  }
+  .texto1{
+    position: relative;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 29px;
+    text-align: center;
+  }
+  .boton{
+    position: absolute;
+    display: inline-block;
+    width: 88px;
+    height: 88px;
+    border-radius: 500px;
+    text-align: center;
+    line-height: 88px;
+    text-transform: uppercase;
+    background: #ffffff;
+    color: #7a7979;
+    text-decoration: none;
+    top: 100%;
+    left: 43%;
+  }
+  #contenedor2{
+    position: absolute;
+    width: 670px;
+    height: 373px;
+    top: 124.1%;
+    left: 6.6%;
+    background: #57ffcc;
+    opacity: 0.7;
+  }
+  .texto2{
+    font: 36px/45px 'Alegreya SC', serif;
+    font-size: 60px;
+    line-height: 55px;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .texto3{
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 33px;
+    text-align: center;
+  }
+
+  .circulo1{
+    background: #ffffff;
+    margin: 0 9px;
+    opacity: 1;
+    border: 2px solid;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 100%;
+    margin-left: 42.8%;
+  }
+  .circulo2{
+    margin: 0 9px;
+    opacity: 1;
+    border: 2px solid;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 100%;
+  }
+  .circulo3{
+    margin: 0 9px;
+    opacity: 1;
+    border: 2px solid;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 100%;
+  }
+
+  //////////////////////////////////////
+  #seccion1{
+    width: 100%;
+    height: 793px;
+    background-color: #f6f6f6;
+    position: relative;
+    top: -29px;
+  }
+  .titulo1{
+    position: relative;
+    top: 5.5%;
+    color: #4c4c4c;
+    font: 36px/45px 'Alegreya SC', serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 8.1%;
+  }
+
+  .img1{
+    margin-left: 10.3%;
+    border-radius: 500px;
+  }
+  .img2{
+    margin-left: 9.4%;
+    border-radius: 500px;
+  }
+  .img3{
+    margin-left: 9.35%;
+    border-radius: 500px;
+  }
+  .nombre1{
+    font: 30px/40px 'Alegreya', serif;
+    color: #52d3b7;
+    position: relative;
+    top: -0.9%;
+    left: 14.04%;
+    width: 225px;
+  }
+  .nombre2{
+    font: 30px/40px 'Alegreya', serif;
+    color: #52d3b7;
+    position: relative;
+    top: -9.7%;
+    left: 41.92%;
+    width: 225px;
+  }
+  .nombre3{
+    font: 30px/40px 'Alegreya', serif;
+    color: #52d3b7;
+    position: relative;
+    top: -18.5%;
+    left: 72.77%;
+    width: 225px;
+  }
+  .texto4{
+    position: relative;
+    top: -17.6%;
+    text-align: center;
+    margin-bottom: 38px;
+    margin: 0 0 26px;
+    font-family: Alegreya;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7a7979;
+  }
+  .boton2{
+    position: absolute;
+    padding: 17px 30px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #52d3b7;
+    color: #ffffff;
+    text-decoration: none;
+    top: 83.3%;
+    left: 46%;
+    font: 18px/26px 'Alegreya SC', serif;
+    line-height: 1em;
+    transition: all 0.3s linear;
+  }
+
+  .boton2:hover{
+    background-color: black;
+    color: white;
+  }
+
+  //////////////////////////////////////////
+
+
+  #seccion2 {
+
+      background-color: white;
+      width: 100%;
+      height: 793px;
+
+  }
+
+  .titulo3{
+    color: #4c4c4c;
+    font: 36px/45px 'Alegreya SC', serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 8.1%;
+  }
+
+  #texto5 {
+
+      text-transform: uppercase;
+      font-size: 18px;
+      margin-bottom: 50px;
+      text-align: center;
+      font-family: Alegreya;
+      font-size: 20px;
+      line-height: 30px;
+      color: #ababab;
+      position: relative;
+      top: -90px;
+
+
+  }
+
+  .tabla {
+
+      display: table;
+      margin-bottom: 25px;
+      position: relative;
+      left: 6.5%;
+      top: -90px
+
+  }
+
+  .celda {
+
+      width: 390px;
+      height: 221px;
+      display: table-cell;
+      box-sizing: border-box;
+
+  }
+
+
+  div.celda {
+
+      border: 1px solid #E3E3E3;
+      height: 184px;
+      vertical-align: middle;
+      padding: 0 30px;
+
+  }
+
+  div.celda p {
+
+      color: #B7C2CE;
+      font-size: 20px;
+      text-align: center;
+
+  }
+
+  div.celda h5{
+
+      color: #75C1E4;
+      font-family: titulos;
+      font-size: 20px;
+      font-weight: 300;
+      transition: all 0.3s linear;
+      -webkit-transition: all 0.3s linear;
+      text-align: center;
+
+  }
+
+  .fila2{
+    position: relative;
+    top: -8px;
+  }
+
+  .boton3{
+    position: relative;
+    padding: 17px 30px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #52d3b7;
+    color: #ffffff;
+    text-decoration: none;
+    top: -9%;
+    left: 46%;
+    font: 18px/26px 'Alegreya SC', serif;
+    line-height: 1em;
+    transition: all 0.3s linear;
+  }
+
+  .boton3:hover{
+    background-color: black;
+    color: white;
+  }
